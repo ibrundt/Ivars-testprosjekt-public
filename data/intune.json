@@ -1,7 +1,7 @@
 [
   {
-    "deviceId": "PC001",
-    "deviceName": "OSL-LAPTOP-001",
+    "deviceId": "PC00",
+    "deviceName": "OSL-LAPTOP-00",
     "serialNumber": "ABC123",
     "manufacturer": "Dell",
     "model": "Latitude 5540",
