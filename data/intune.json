@@ -9,7 +9,7 @@
   },
   {
     "deviceId": "PC002",
-    "deviceName": "OSL-LAPTOP-002_B",
+    "deviceName": "OSL-LAPTOP-002_B2",
     "serialNumber": "DEF456",
     "manufacturer": "HP",
     "model": "EliteBook 860",
@@ -28,6 +28,14 @@
     "deviceName": "OSL-LAPTOP-00YYY",
     "serialNumber": "DEF456-yyy",
     "manufacturer": "HY",
+    "model": "EliteBook 860Y",
+    "lastSeen": "2026-10-15"
+  },
+  {
+    "deviceId": "PC00z",
+    "deviceName": "OSL-LAPTOP-00YYYZ",
+    "serialNumber": "DEF456-yyy",
+    "manufacturer": "HYZ",
     "model": "EliteBook 860Y",
     "lastSeen": "2026-10-15"
   }
