@@ -22,6 +22,14 @@
     "manufacturer": "HP du liksom",
     "model": "EliteBook 860",
     "lastSeen": "2026-10-11"
+  },
+  {
+    "deviceId": "PC00y",
+    "deviceName": "OSL-LAPTOP-00YYY",
+    "serialNumber": "DEF456-yyy",
+    "manufacturer": "HY",
+    "model": "EliteBook 860Y",
+    "lastSeen": "2026-10-15"
   }
 
 ]
