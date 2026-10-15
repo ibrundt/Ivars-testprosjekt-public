@@ -1,0 +1,16 @@
+[
+  {
+    "printerId": "PRN001",
+    "printerName": "Printer Oslo 1",
+    "serialNumber": "PR123456",
+    "location": "Oslo",
+    "status": "Online"
+  },
+  {
+    "printerId": "PRN002",
+    "printerName": "Printer Oslo 2",
+    "serialNumber": "PR654321",
+    "location": "Oslo",
+    "status": "Online"
+  }
+]

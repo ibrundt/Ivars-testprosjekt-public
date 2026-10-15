@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ownership Register</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>Printix Printer Inventory</h1>
+
+<table id="printers"></table>
+
+<script>
+
+fetch('data/printix.json')
+.then(response => response.json())
+.then(data => {
+
+    let html = `
+    <tr>
+        <th>Printer</th>
+        <th>Serial</th>
+        <th>Location</th>
+        <th>Status</th>
+    </tr>`;
+
+    data.forEach(printer => {
+
+        html += `
+        <tr>
+            <td>${printer.printerName}</td>
+            <td>${printer.serialNumber}</td>
+            <td>${printer.location}</td>
+            <td>${printer.status}</td>
+        </tr>`;
+    });
+
+    document.getElementById("printers").innerHTML = html;
+});
+
+</script>
+
+</body>
+</html>

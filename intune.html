@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Intune Inventory</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<h1>Intune Device Inventory</h1>
+
+<table id="devices"></table>
+
+<script>
+
+fetch('data/intune.json')
+.then(response => response.json())
+.then(data => {
+
+    let html = `
+    <tr>
+        <th>Device</th>
+        <th>Serial</th>
+        <th>Manufacturer</th>
+        <th>Model</th>
+        <th>Last Seen</th>
+    </tr>`;
+
+    data.forEach(device => {
+
+        html += `
+        <tr>
+            <td>${device.deviceName}</td>
+            <td>${device.serialNumber}</td>
+            <td>${device.manufacturer}</td>
+            <td>${device.model}</td>
+            <td>${device.lastSeen}</td>
+        </tr>`;
+    });
+
+    document.getElementById("devices").innerHTML = html;
+});
+
+</script>
+
+</body>
+</html>

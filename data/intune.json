@@ -1,0 +1,27 @@
+[
+  {
+    "deviceId": "PC001",
+    "deviceName": "OSL-LAPTOP-001",
+    "serialNumber": "ABC123",
+    "manufacturer": "Dell",
+    "model": "Latitude 5540",
+    "lastSeen": "2026-10-15"
+  },
+  {
+    "deviceId": "PC002",
+    "deviceName": "OSL-LAPTOP-002",
+    "serialNumber": "DEF456",
+    "manufacturer": "HP",
+    "model": "EliteBook 860",
+    "lastSeen": "2026-10-15"
+  },
+  {
+    "deviceId": "PC00x",
+    "deviceName": "OSL-LAPTOP-00x",
+    "serialNumber": "DEF456_123",
+    "manufacturer": "HP du liksom",
+    "model": "EliteBook 860",
+    "lastSeen": "2026-10-11"
+  }
+
+]

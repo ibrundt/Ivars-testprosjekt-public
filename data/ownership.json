@@ -1,0 +1,20 @@
+[
+  {
+    "assetId": "PC001",
+    "assetName": "OSL-LAPTOP-001",
+    "ownerCode": "NAFOB-ALT",
+    "ownerName": "Drift Nord"
+  },
+  {
+    "assetId": "PC002",
+    "assetName": "OSL-LAPTOP-002",
+    "ownerCode": "NAFOB-APP",
+    "ownerName": "Applikasjonsforvaltning"
+  },
+  {
+    "assetId": "PRN001",
+    "assetName": "Printer Oslo 1",
+    "ownerCode": "",
+    "ownerName": ""
+  }
+]

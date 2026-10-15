@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ownership Register</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>Ownership Register</h1>
+
+<table id="owners"></table>
+
+<script>
+
+fetch('data/ownership.json')
+.then(response => response.json())
+.then(data => {
+
+    let html = `
+    <tr>
+        <th>Asset</th>
+        <th>Owner Code</th>
+        <th>Owner Name</th>
+    </tr>`;
+
+    data.forEach(item => {
+
+        let ownerName = item.ownerName || "NOT ASSIGNED";
+        let ownerCode = item.ownerCode || "-";
+
+        html += `
+        <tr>
+            <td>${item.assetName}</td>
+            <td>${ownerCode}</td>
+            <td>${ownerName}</td>
+        </tr>`;
+    });
+
+    document.getElementById("owners").innerHTML = html;
+});
+
+</script>
+
+</body>
+</html>
