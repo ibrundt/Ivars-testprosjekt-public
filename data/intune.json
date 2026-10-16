@@ -52,6 +52,15 @@
     "model": "EliteBook 860Y",
     "lokasjon": "NAF ØB Bergen",
     "lastSeen": "2026-10-15"
+  },
+  {
+    "deviceId": "PC2000x",
+    "deviceName": "Tjobing",
+    "serialNumber": "DEF456",
+    "manufacturer": "HP",
+    "model": "EliteBook 860",
+    "lokasjon": "NAF Senter Sykkulven",
+    "lastSeen": "2026-10-15"
   }
 
 ]
