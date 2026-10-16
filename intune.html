@@ -9,7 +9,7 @@
 
 <body>
 
-<h1>Intune Device Inventory</h1>
+<h1>POC Intune Device Inventory DUMMY DATA</h1>
 
 <table id="devices"></table>
 
@@ -25,6 +25,7 @@ fetch('data/intune.json')
         <th>Serial</th>
         <th>Manufacturer</th>
         <th>Model</th>
+        <th>Lokasjon</th>
         <th>Last Seen</th>
     </tr>`;
 
@@ -36,6 +37,7 @@ fetch('data/intune.json')
             <td>${device.serialNumber}</td>
             <td>${device.manufacturer}</td>
             <td>${device.model}</td>
+            <td>${device.lokasjon}</td>
             <td>${device.lastSeen}</td>
         </tr>`;
     });
