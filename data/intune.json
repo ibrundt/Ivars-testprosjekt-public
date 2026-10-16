@@ -5,6 +5,7 @@
     "serialNumber": "ABC123",
     "manufacturer": "Dell",
     "model": "Latitude 5540",
+    "lokasjon": "NAF ØB Alta",
     "lastSeen": "2026-10-15"
   },
   {
@@ -13,6 +14,7 @@
     "serialNumber": "DEF456",
     "manufacturer": "HP",
     "model": "EliteBook 860",
+    "lokasjon": "NAF Senter Sykkulven",
     "lastSeen": "2026-10-15"
   },
   {
@@ -21,6 +23,7 @@
     "serialNumber": "DEF456_123",
     "manufacturer": "HP du liksom",
     "model": "EliteBook 860",
+    "lokasjon": "NAF Senter Haugesund",
     "lastSeen": "2026-10-11"
   },
   {
@@ -29,6 +32,7 @@
     "serialNumber": "DEF456-yyy",
     "manufacturer": "HY",
     "model": "EliteBook 860Y",
+    "lokasjon": "NAF Senter Alta",
     "lastSeen": "2026-10-15"
   },
   {
@@ -37,6 +41,7 @@
     "serialNumber": "DEF456-yyy",
     "manufacturer": "HYZ",
     "model": "EliteBook 860Y",
+    "lokasjon": "NAF Senter Alta",
     "lastSeen": "2026-10-15"
   },
   {
@@ -45,6 +50,7 @@
     "serialNumber": "DEF456-yyy1",
     "manufacturer": "HYZ",
     "model": "EliteBook 860Y",
+    "lokasjon": "NAF ØB Bergen",
     "lastSeen": "2026-10-15"
   }
 
