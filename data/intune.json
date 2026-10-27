@@ -61,6 +61,13 @@
     "model": "EliteBook 860",
     "lokasjon": "NAF Senter Sykkulven",
     "lastSeen": "2026-10-15"
+  },
+  {
+    "deviceId": "testfraweb",
+    "deviceName": "har ikke navn",
+    "serialNumber": "2345",
+    "manufacturer": "Ivar",
+    "model": "xl",
+    "lastSeen": "2026-10-27T09:03:27.552Z"
   }
-
 ]
