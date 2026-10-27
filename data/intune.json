@@ -67,8 +67,8 @@
     "deviceName": "har ikke navn",
     "serialNumber": "2345",
     "manufacturer": "Ivar",
-    "lokasjon": "NAF Senter Sykkulven",
     "model": "xl",
-    "lastSeen": "2026-10-27T09:03:27.552Z"
+    "lokasjon": "NAF Senter Sykkulven",    
+    "lastSeen": "2026-10-27"
   }
 ]
