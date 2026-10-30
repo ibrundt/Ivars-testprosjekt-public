@@ -1,14 +1,5 @@
 [
-  {
-    "deviceId": "PC00",
-    "deviceName": "OSL-LAPTOP-00",
-    "serialNumber": "ABC123",
-    "manufacturer": "Dell",
-    "model": "Latitude 5540",
-    "lokasjon": "NAF ØB Alta",
-    "lastSeen": "2026-10-15"
-  },
-  {
+  {   
     "deviceId": "PC002",
     "deviceName": "OSL-LAPTOP-002_B2",
     "serialNumber": "DEF456",
