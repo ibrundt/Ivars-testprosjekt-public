@@ -70,5 +70,25 @@
     "model": "xl",
     "lokasjon": "NAF Senter Sykkulven",    
     "lastSeen": "2026-10-27"
+  },
+  {
+    "deviceId": "Dev1001",
+    "deviceName": "Device 1001 er navnet",
+    "serialNumber": "2345",
+    "manufacturer": "Ivar",
+    "model": "xl",
+    "lokasjon": "NAF Senter Sykkulven",    
+    "lastSeen": "2026-10-30"
+  },
+  {
+    "deviceId": "Dev1002",
+    "deviceName": "Device 1002 heter denne",
+    "serialNumber": "2345",
+    "manufacturer": "Ivar",
+    "model": "xl",
+    "lokasjon": "NAF ØB Alta",    
+    "lastSeen": "2026-10-30"
   }
+
+
 ]
